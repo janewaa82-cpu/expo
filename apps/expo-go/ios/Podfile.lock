@@ -3701,6 +3701,7 @@ PODS:
     - StripeUICore (= 24.19.0)
   - StripeUICore (24.19.0):
     - StripeCore (= 24.19.0)
+  - SwiftUIIntrospect (1.3.0)
   - UMAppLoader (6.0.5)
   - Yoga (0.0.0)
   - ZXingObjC/Core (3.6.9)
@@ -4463,6 +4464,7 @@ SPEC CHECKSUMS:
   StripePaymentSheet: b126816213ae4f56ff4525ad25f94bb985a43e27
   StripePaymentsUI: 05d4be35b34f821d5ddc8617dee04219f3646253
   StripeUICore: d07bd63a4b53dee8cab4d6f81ce5a7ab3e28511e
+  SwiftUIIntrospect: fee9aa07293ee280373a591e1824e8ddc869ba5d
   UMAppLoader: 42e84b205df1fe9cb7ab20008cf69a4757defe15
   Yoga: 11c9686a21e2cd82a094a723649d9f4507200fb0
   ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5

@@ -293,12 +293,6 @@ const ScreensList: ScreenConfig[] = [
     },
     name: 'MeshGradient',
   },
-  {
-    getComponent() {
-      return optionalRequire(() => require('../screens/BottomTabs'));
-    },
-    name: 'BottomTabs',
-  },
 ];
 
 export const Screens: ScreenConfig[] = [
