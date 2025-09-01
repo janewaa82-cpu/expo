@@ -4400,6 +4400,7 @@ SPEC CHECKSUMS:
   React-logger: d27dd2000f520bf891d24f6e141cde34df41f0ee
   React-Mapbuffer: 0746ffab5ac0f49b7c9347338e3d0c1d9dd634c8
   React-microtasksnativemodule: b0fb3f97372df39bda3e657536039f1af227cc29
+  react-native-bottom-tabs: 5e35287e7385fd621a3eec3707dc0b590a163d1d
   react-native-google-maps: 7cc1184afe41fbd15a3dffd53c924819f6587b69
   react-native-keyboard-controller: 5e209d13d4c5355ddf8c36be3d41b8dfc879cd91
   react-native-maps: ee1e65647460c3d41e778071be5eda10e3da6225
