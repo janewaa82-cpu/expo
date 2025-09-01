@@ -32,7 +32,6 @@
     }
   },
   "dependencies": {
-    "@bottom-tabs/react-navigation": "~0.10.0",
     "@expo-google-fonts/inter": "^0.2.3",
     "@expo/react-native-action-sheet": "^4.1.1",
     "@expo/styleguide-base": "^1.0.1",
