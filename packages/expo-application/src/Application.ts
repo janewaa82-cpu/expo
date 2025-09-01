@@ -53,6 +53,21 @@ export const applicationId: string | null = ExpoApplication
   ? ExpoApplication.applicationId || null
   : null;
 
+/**
+ * Indicates whether the app is using the liquid glass design. The value will be `true` when the
+ * liquid glass components are available in the app.
+ *
+ * This only checks for component availability. The value may also be `true` if the user has enabled
+ * accessibility settings that limit the liquid glass effect.
+ * To check if the user has disabled the liquid glass effect via accessibility settings, use
+ * [`AccessibilityInfo.isReduceTransparencyEnabled()`](https://reactnative.dev/docs/accessibilityinfo#isreducetransparencyenabled-ios).
+ *
+ * @platform ios
+ */
+export const isLiquidGlassAvailable: boolean = ExpoApplication
+  ? !!ExpoApplication.isLiquidGlassAvailable
+  : false;
+
 // @needsAudit
 /**
  * Gets the value of [`Settings.Secure.ANDROID_ID`](https://developer.android.com/reference/android/provider/Settings.Secure.html#ANDROID_ID).

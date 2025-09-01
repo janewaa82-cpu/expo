@@ -34,6 +34,18 @@ export declare const applicationName: string | null;
  */
 export declare const applicationId: string | null;
 /**
+ * Indicates whether the app is using the liquid glass design. The value will be `true` when the
+ * liquid glass components are available in the app.
+ *
+ * This only checks for component availability. The value may also be `true` if the user has enabled
+ * accessibility settings that limit the liquid glass effect.
+ * To check if the user has disabled the liquid glass effect via accessibility settings, use
+ * [`AccessibilityInfo.isReduceTransparencyEnabled()`](https://reactnative.dev/docs/accessibilityinfo#isreducetransparencyenabled-ios).
+ *
+ * @platform ios
+ */
+export declare const isLiquidGlassAvailable: boolean;
+/**
  * Gets the value of [`Settings.Secure.ANDROID_ID`](https://developer.android.com/reference/android/provider/Settings.Secure.html#ANDROID_ID).
  * This is a hexadecimal `string` unique to each combination of app-signing key, user, and device.
  * The value may change if a factory reset is performed on the device or if an APK signing key changes.
